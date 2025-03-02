@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "react-native-starter",
+    "slug": "react-native-starter",
+    "version": "1.0.0",
+    "scheme": "react-native-starter",
+    "newArchEnabled": true,
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": ["expo-router", "expo-font"],
+    "orientation": "portrait",
+    "icon": "./assets/react-logo.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/react-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/react-logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/react-logo.png",
+      "bundler": "metro"
+    }
+  }
+}
